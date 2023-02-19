@@ -28,6 +28,10 @@ public class DesayunoTest {
 
         desayuno.addItem(eyehole);
         desayuno.addItem(turbulentJuice);
+
+        assertEquals(2, desayuno.getItems().size()); 
+
+
     
     }
 
@@ -51,7 +55,7 @@ public class DesayunoTest {
 
         desayuno.addItem(eyehole);
         desayuno.addItem(turbulentJuice);
-        
+
         assertEquals( 55.0, desayuno.getCoste(), 0);
 
     }
