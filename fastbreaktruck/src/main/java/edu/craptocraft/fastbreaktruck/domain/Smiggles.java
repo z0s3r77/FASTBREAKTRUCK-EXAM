@@ -15,4 +15,13 @@ public class Smiggles extends Cereales {
         return this.PVP;
     }
 
+
+    @Override
+    public String toString() {
+        
+        StringBuilder smiggle = new StringBuilder();
+        smiggle.append("Item: Smiggles,"+" Empaquetado: "+this.empaquetado().envoltorio()+", Precio: "+this.PVP);
+        return smiggle.toString();
+
+    }
 }

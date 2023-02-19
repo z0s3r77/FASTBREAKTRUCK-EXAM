@@ -2,25 +2,18 @@ package edu.craptocraft.fastbreaktruck.types;
 
 import edu.craptocraft.fastbreaktruck.behaviour.Item;
 import edu.craptocraft.fastbreaktruck.behaviour.Packing;
+import edu.craptocraft.fastbreaktruck.domain.Caja;
 
 public abstract class Cereales implements Item{
     
+    private Caja caja = new Caja();
 
     public Cereales(){}
 
     @Override
-    public String nombre() {
-        return null;
-    }
-
-    @Override
     public Packing empaquetado() {
-        return null;
+        return this.caja;
     }
 
-    @Override
-    public Float pvp() {
-        return null;
-    }
 
 }

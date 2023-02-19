@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -34,6 +33,18 @@ public class SmigglesTest {
     @Test public void pvpTest(){
 
         assertEquals(50.0, smiggle.pvp(), 0);
+    }
+
+    @Test public void empaquetadoTest(){
+
+        assertEquals("Caja", smiggle.empaquetado().envoltorio());
+
+    }
+
+    @Test public void toStringTest(){
+
+        assertEquals("Item: Smiggles, Empaquetado: Caja, Precio: 50.0", smiggle.toString());
+
     }
 
 }

@@ -36,4 +36,16 @@ public class EyeholesTest {
 
         assertEquals(25.0, eyehole.pvp(), 0);
     }
+
+    @Test public void empaquetadoTest(){
+
+        assertEquals("Caja", eyehole.empaquetado().envoltorio());
+
+    }
+
+    @Test public void toStringTest(){
+
+        assertEquals("Item: Eyeholes, Empaquetado: Caja, Precio: 25.0", eyehole.toString());
+
+    }
 }

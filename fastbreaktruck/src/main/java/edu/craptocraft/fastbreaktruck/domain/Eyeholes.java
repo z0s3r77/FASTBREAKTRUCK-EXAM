@@ -15,4 +15,13 @@ public class Eyeholes extends Cereales {
         return this.PVP;
     }
 
+    @Override
+    public String toString() {
+        
+        StringBuilder eyehole = new StringBuilder();
+        eyehole.append("Item: Eyeholes,"+" Empaquetado: "+this.empaquetado().envoltorio()+", Precio: "+this.PVP);
+        return eyehole.toString();
+
+    }
+
 }
