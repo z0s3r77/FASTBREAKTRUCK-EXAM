@@ -14,6 +14,11 @@ public class DesayunoTest {
     @BeforeClass public static void onlyOnce(){
 
         desayuno = new Desayuno();
+        Eyeholes eyehole = new Eyeholes();
+        TurbulentJuice turbulentJuice = new TurbulentJuice();
+
+        desayuno.addItem(eyehole);
+        desayuno.addItem(turbulentJuice);
     
     }
 
@@ -23,11 +28,7 @@ public class DesayunoTest {
 
     @Test public void addItemTest(){
 
-        Eyeholes eyehole = new Eyeholes();
-        TurbulentJuice turbulentJuice = new TurbulentJuice();
 
-        desayuno.addItem(eyehole);
-        desayuno.addItem(turbulentJuice);
 
         assertEquals(2, desayuno.getItems().size()); 
 
@@ -37,12 +38,6 @@ public class DesayunoTest {
 
     @Test public void getItemTest(){
 
-        Eyeholes eyehole = new Eyeholes();
-        TurbulentJuice turbulentJuice = new TurbulentJuice();
-
-        desayuno.addItem(eyehole);
-        desayuno.addItem(turbulentJuice);
-
        assertEquals(2, desayuno.getItems().size()); 
 
     }
@@ -50,11 +45,6 @@ public class DesayunoTest {
 
     @Test public void getCosteTest(){
         
-        Eyeholes eyehole = new Eyeholes();
-        TurbulentJuice turbulentJuice = new TurbulentJuice();
-
-        desayuno.addItem(eyehole);
-        desayuno.addItem(turbulentJuice);
 
         assertEquals( 55.0, desayuno.getCoste(), 0);
 
