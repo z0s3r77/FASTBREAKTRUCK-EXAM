@@ -1,0 +1,15 @@
+edu/craptocraft/fastbreaktruck/types/Cereales.class
+edu/craptocraft/fastbreaktruck/types/Juguete.class
+edu/craptocraft/fastbreaktruck/behaviour/FastBreakTruck.class
+edu/craptocraft/fastbreaktruck/domain/FleebJuice.class
+edu/craptocraft/fastbreaktruck/domain/Smiggles.class
+edu/craptocraft/fastbreaktruck/domain/Tubo.class
+edu/craptocraft/fastbreaktruck/domain/Desayuno.class
+edu/craptocraft/fastbreaktruck/domain/Caja.class
+edu/craptocraft/fastbreaktruck/domain/TurbulentJuice.class
+edu/craptocraft/fastbreaktruck/domain/Plumbus.class
+edu/craptocraft/fastbreaktruck/behaviour/Item.class
+edu/craptocraft/fastbreaktruck/domain/Eyeholes.class
+edu/craptocraft/fastbreaktruck/App.class
+edu/craptocraft/fastbreaktruck/types/Bebida.class
+edu/craptocraft/fastbreaktruck/behaviour/Packing.class
