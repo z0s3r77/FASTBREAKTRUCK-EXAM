@@ -24,10 +24,10 @@ public class App {
 		 * Desayuno Smiggles
 		 */
 		
-		// Desayuno smigDes = FastBreakTruck.prepararSmiggles();
-		// System.out.println("\nSmiggles per als nins!");
-		// smigDes.mostrarItems();
-		// System.out.print("Precio pedido: " + smigDes.getCoste());
+		Desayuno smigDes = FastBreakTruck.prepararSmiggles();
+		System.out.println("\nSmiggles per als nins!");
+		smigDes.mostrarItems();
+		System.out.print("Precio pedido: " + smigDes.getCoste());
 
 		/**
 		 * Plumbus
