@@ -25,4 +25,11 @@ public class Desayuno {
     public Float getCoste(){
         return this.total;
     }
+
+    public void mostrarItems(){
+
+        this.items.stream()
+                    .forEach( item -> System.out.println(item.toString()));
+
+    }
 }
